@@ -10,7 +10,7 @@ const adams = require("./config");
 
 async function fetchINDEXUrl() {
   try {
-    const response = await axios.get(juma.DIGITEX-XMD);
+    const response = await axios.get(adams.DIGITEX-XMD);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("INDEX")');
