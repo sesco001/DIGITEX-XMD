@@ -6,11 +6,11 @@
 
 const axios = require('axios');
 const cheerio = require('cheerio');
-const juma = require(__dirname + "/../config");
+const adams = require(__dirname + "/../config");
 
 async function fetchREPOUrl() {
   try {
-    const response = await axios.get(juma.DIGITEX_XMD);
+    const response = await axios.get(adams.DIGITEX_XMD);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("REPO")');
