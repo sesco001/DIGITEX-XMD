@@ -15,37 +15,14 @@
   <a href="https://files.catbox.moe/g7qjxj.png">
     <img src="https://files.catbox.moe/g7qjxj.png" width="100%" height="auto">
   </a>
-
-<p align="center">
-  <a href="https://render.com">
-    <im" width="50" height="50"/>
-  </a>
   
-<p align="center">
-  <a href="https://railway.app
-    " width="500" height="50"/>
-  </a>
-</p>
-
-<!-- Glowing Footer -->
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
-
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=DIGITEX+XMD+by+Juma+Wycliffe;" alt="Footer Animation">
-</h3>
-
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
 **1. Fork This Repository**
 
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
 
-  <a href="https://github.com/Digitexmedia/DIGITEX-XMD/fork"><img title="DIGITEX-XMD" src="https://img.shields.io/badge/FORK-DIHITEX-CMD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Digitexmedia/DIGITEX-XMD/fork"><img title="DIGITEX-XMD" src="https://img.shields.io/badge/FORK-DIGITEX-CMD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
