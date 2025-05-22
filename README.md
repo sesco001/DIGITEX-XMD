@@ -7,19 +7,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=DIGITEX+XMD;🔥verified+WhatsApp+Bot;💻+Crafted+by+Juma+Wycliffe;Digitex+Smart+Solutions+Technology;Verified+✅" alt="Typing Animation">
 </h1>
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-
-  ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
-
+## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 **1. Fork This Repository**
-
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
-
-  <a href="https://github.com/Digitexmedia/DIGITEX-XMD/fork"><img title="DIGITEX-XMD" src="https://img.shields.io/badge/FORK-DIGITEX-CMD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
-
+<a href="https://github.com/Digitexmedia/DIGITEX-XMD/fork"><img title="DIGITEX-XMD" src="https://img.shields.io/badge/FORK-DIGITEX-CMD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 🔑 Get Session ID (WhatsApp Pair Code Login)
-
 > To deploy, generate your session ID from the link below:
 <p align="center">
   <a href="https://digitex-xmd-session-site.onrender.com/
@@ -27,15 +21,9 @@
   </a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 2. **Obtain the Session ID**: After accessing the URL, you should see a session ID displayed. Copy this session ID.
-
-
-   
-
 </a>
 </p>
 <p align="center">
@@ -43,7 +31,6 @@
   </a>
 </p>
   2..DEPLOY ON RENDER ⤵️
-
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://https://github.com/Digitexmedia/DIGITEX-XMD.git)
 
 ### Thank You Dear
