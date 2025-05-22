@@ -18,12 +18,12 @@
 
 <p align="center">
   <a href="https://render.com">
-    <im" width="260" height="50"/>
+    <im" width="50" height="50"/>
   </a>
   
 <p align="center">
   <a href="https://railway.app
-    " width="260" height="50"/>
+    " width="500" height="50"/>
   </a>
 </p>
 
