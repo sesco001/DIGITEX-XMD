@@ -1,14 +1,4 @@
-/**
 
-Copyright (C) 2025.
-Licensed under the  GPL-3.0 License;
-You may not sell this script.
-It is supplied in the hope that it may be useful.
-* @project_name : Free Bot script
-* @author : Malvin King <https://github.com/kingmalvn>
-* @description : A Multi-functional whatsapp bot script.
-* @version 3.0.0
-**/
 
 const {
 default: makeWASocket,
@@ -88,7 +78,17 @@ require("./plugins/" + plugin);
 console.log('Digitexxmd FILES INSTALL SUCCESSFULLY ✅')
 console.log('DIGITEX-XMD CONNECTED TO WHATSAPP ENJOY ✅')
 
-let up = `*╭──────────────●●►*
+let up = `*╭──────────────●●►*╭══════════════⊷
+┃ DIGITEX XMD CONNECTED SUCCESSFULLY 
+╰══════════════⊷
+╭══════════════⊷
+┃ 🪆𝗥𝗘𝗣𝗢
+┃https://github.com/Digitexmedia/DIGITEX-XMD
+╰══════════════⊷
+╭══════════════⊷
+┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
+┃https://digitex-xmd-session-site-2.onrender.com
+╰══════════════⊷
 > *➺ DIGITEX_XMD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ JUMA ✅*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs
@@ -97,7 +97,8 @@ let up = `*╭──────────────●●►*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
-*╰──────────────●●►*`;
+*╰──────────────●●►*
+`;
 conn.sendMessage(conn.user.id, { image: { url: config.MENU_IMG }, caption: up })
 
 }
