@@ -69,3 +69,7 @@
 
 </a>
 </p>
+<p align="center">
+<a href='https://https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDigitexmedia%2FDIGITEX-XMD%2Ftree%2Fmain%3Ftab=readme-ov-file' target="_blank"> <img title="DEPLOY DIGITEX-XMD" src="https://img.shields.io/badge/👻_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+  </a>
+</p>
