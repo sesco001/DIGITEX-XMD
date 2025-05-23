@@ -43,12 +43,12 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['254726293089']
+const ownerNumber = ['254748571920']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("PEACEMAKER~", '');
+const sessdata = config.SESSION_ID.replace("DIGITEX XMD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -62,7 +62,7 @@ const port = process.env.PORT || 9090;
 
 
 async function connectToWA() {
-console.log("CONNECTING PEACEMAKER MD🧬...");
+console.log("CONNECTING DIGITEX XMD🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -90,14 +90,14 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('PEACEMAKER MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('DIGITEX XMD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `*╭──────────────●●►*
-> *➺ PEACEMAKER MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ EMMANUEL✅*
+> *➺ DIGITEX XMD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ JUMA✅*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 
 
-*https://whatsapp.com/channel/0029Vb5O5AGEawdqTdMRj514*
+*https://whatsapp.com/channel/0029Vb5zdsiA89MrLd1hAk2Q*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
@@ -177,12 +177,12 @@ if(senderNumber.includes("263777777777")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("254726293089")){
+if(senderNumber.includes("254748571920")){
 if(isReact) return
 m.react("🦋")
    }
 
-if(senderNumber.includes("254726293089")){
+if(senderNumber.includes("254748571920")){
 if(isReact) return
 m.react("🎀")
    }
@@ -269,7 +269,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("PEACEMAKER MD STARTED ✅");
+res.send("DIGITEX XMD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
