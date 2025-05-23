@@ -1,8 +1,8 @@
 {
-  "name": "PEACEMAKER MD",
-  "description": "Javascript WhatsApp bot made by Peacemaker",
+  "name": "DIGITEX-XMD",
+  "description": "Javascript WhatsApp bot made by DIGITEX",
   "logo": "https://files.catbox.moe/degy3b.jpg",
-  "keywords": ["PEACE-MAKER"],
+  "keywords": ["DIGITEX"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "PEACEMAKER MD"
+      "value": "DIGITEX-XMD"
     }, 
       
     "PREFIX": {
@@ -92,14 +92,14 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254726293089"
+      "value": "254748571920"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "PEACEMAKER MD"
+      "value": "DIGITEX-XMD"
 
       }, 
 
@@ -125,7 +125,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/degy3b.jpg"
+      "value": "https://files.catbox.moe/g7qjxj.png"
     },
      
     "DESCRIPTION": {
