@@ -1,162 +1,195 @@
 {
-  "name": "DIGITEX-XMD",
-  "description": "Best WhatsApp bot developed by Ibrahim Adams",
-  "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/g7qjxj.png",
-  "repository": "https://github.com/ekitale/maths-project",
+  "name": "PEACEMAKER MD",
+  "description": "Javascript WhatsApp bot made by Peacemaker",
+  "logo": "https://files.catbox.moe/degy3b.jpg",
+  "keywords": ["PEACE-MAKER"],
   "success_url": "/",
-  "stack": "heroku-24",
+
+    "stack": "container",
   "env": {
-    "PREFIX": {
-      "description": "Choose your prefix for your bot",
-      "value": ".",
-      "required": true
-    },
-    "AUTO_REJECT_CALL": {
-      "description": "Enter yes for your bot to auto reject calls",
-      "value": "no",
-      "required": false
-    },
-    "AUTO_BIO": {
-      "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_REPLY_STATUS": {
-      "description": "Enter yes for your bot to notify people that you have viewed there status",
-      "value": "no",
-      "required": false
-    },
-    "REPLY_STATUS_TEXT": {
-      "description": "Enter here your message for your bot to notify people that you have viewed there status",
-      "value": " ✅",
-      "required": false
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
-    },
-    "AUTO_READ": {
-      "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "Name for your bot",
-      "value": "DIGITEX-XMD",
-      "required": false
-    },
-    "BOT_IMAGE": {
-      "description": "Image URL for your bot menu",
-      "value": "https://files.catbox.moe/g7qjxj.png",
-      "required": false
-    },
-    "PUBLIC_MODE": {
-      "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Enter your Heroku API key to be able to control your vars",
-      "value": "",
-      "required": true 
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Enter your Heroku app name to be able to control vars",
-      "value": "",
-      "required": true 
-    },
-    "OWNER_NUMBER": {
-      "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
-      "required": true 
-    },
-   "STATUS_REACT_EMOJIS": {
-      "description": "Enter your auto like status emojis",
-      "value": "💚",
-      "required": false 
-    },
-    "AUTO_REACT": {
-      "description": "Enter your auto react messages",
-      "value": "no",
-      "required": false 
-    },
-   "AUTO_REACT_STATUS": {
-      "description": "Enter yes for your bot to auto like status",
-      "value": "yes",
-      "required": false 
-    },
-    "OWNER_NAME": {
-      "description": "Owner name",
-      "value": "Juma",
-      "required": false
-    },
     "SESSION_ID": {
-      "description": "Your session ID",
-      "value": "",
-      "required": true
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+    
+    "STICKER_NAME": {
+      "description": "type your sticker pack name.",
+      "required": false,
+      "value": "PEACEMAKER MD"
+    }, 
+      
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": false,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": false,
+      "value": "public"
+      
+    },
+    
+    
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if want always online.",
+      "required": false,
+      "value": "false"  
     },    
-    "STARTING_BOT_MESSAGE": {
-      "description": "Enable starting message (yes/no)",
-      "value": "yes",
-      "required": true
+  
+    "AUTO_VOICE": {
+      "description": "Make it true if want automatic voice reply .",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_STICKER": {
+      "description": "Make it true if you want automatic sticker.",
+      "required": false,
+      "value": "false"
+    }, 
+
+
+    "AUTO_STATUS_SEEN": {
+      "description": "Make it true for automatic status seen.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_STATUS_REACT": {
+      "description": "make it true for automatic status reaction or like.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply msg on status seen.",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message on status reply",
+      "required": true,
+      "value": "*SEEN YOUR STATUS  🖤*"
+   
+     }, 
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "PEACE MAKER"
+}, 
+
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "254726293089"
+
+    }, 
+
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "PEACEMAKER MD"
+
+      }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+      
     },
-    "PRESENCE": {
-      "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
-      "required": false
+    
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "MENTION_REPLY": {
+      "description": "make it true if want mention reply if someone menetion you.",
+      "required": false,
+      "value": "false"
     },
-    "ANTIDELETE_SENT_INBOX": {
-      "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
-      "required": false
+    
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": false,
+      "value": "https://files.catbox.moe/degy3b.jpg"
     },
-   "ANTIDELETE_RECOVER_CONVENTION": {
-      "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
-      "required": false
-    },	  
-    "GROUPANTILINK": {
-      "description": "Enable anti-link in groups (yes/no)",
-      "value": "yes",
-      "required": false
+     
+    "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ peacemaker"
     },
-    "CHATBOT": {
-      "description": "Enable text chatbot (yes/no)",
-      "value": "no",
-      "required": false
+
+      "DELETE_LINKS": {
+      "description": "remove links from group automatically without removing member",
+      "required": false,
+      "value": "true"
     },
-    "WELCOME_MESSAGE": {
-      "description": "Enable welcoming message in groups (yes/no)",
-      "value": "no",
-      "required": false
+    
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recoding.",
+      "required": false,
+      "value": "false"
     },
-    "GOODBYE_MESSAGE": {
-      "description": "Enable  goodbye in groups (yes/no)",
-      "value": "no",
-      "required": false
+
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
     },
-    "AUDIO_CHATBOT": {
-      "description": "Enable audio chatbot (yes/no)",
-      "value": "no",
-      "required": false
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    },
+    
+    "CUSTOM_REACT": {
+      "description": "Make it true if you want custom reactions.",
+      "required": false,
+      "value": "false"
+      
+    }, 
+    
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "put here custom react react emojis.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    }, 
+    
+    "ANTI_DEL_PATH": {
+      "description": "change it to -same- if you want to resend deleted message in same chat",
+      "required": false,
+      "value": "log"
+    }, 
+
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
+      "required": false,
+      "value": "false"
     }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
 }
+  
