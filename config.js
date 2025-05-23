@@ -27,9 +27,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/degy3b.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "PEACEMAKER MD",
+BOT_NAME: process.env.BOT_NAME || "DIGITEX MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "PEACEMAKER MD",
+STICKER_NAME: process.env.STICKER_NAME || "DIGITEX MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -39,13 +39,13 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "254726293089",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "PEACEMAKER",
+OWNER_NAME: process.env.OWNER_NAME || "DIGITEX",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© powered by Peacemaker md*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/degy3b.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> AM ACTIVE *PEACEMAKER MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> AM ACTIVE *DIGITEX MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
