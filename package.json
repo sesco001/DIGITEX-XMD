@@ -1,12 +1,12 @@
 {
-  "name": "PEACEMAKER",
+  "name": "DIGITEX",
   "version": "4.0.0",
   "description": "A WhatsApp Bot ",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name PEACEMAKER-MD",
-    "stop": "pm2 stop PEACEMAKER-MD",
-    "restart": "pm2 restart PEACEMAKER-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DIGITEX-XMD",
+    "stop": "pm2 stop DIGITEX-XMD",
+    "restart": "pm2 restart DIGITEX-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
