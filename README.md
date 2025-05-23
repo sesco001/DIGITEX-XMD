@@ -4,7 +4,7 @@
 <h3 align="center">"..YOU WANT IT..GO FOR IT..."</h3>
 
 <div align="center">
-  <img src="https://files.catbox.moe/g7ajxj.png" alt="DIGITEX-XMD Banner" width="400" />
+  <img src="https://files.catbox.moe/g7qjxj.png" alt="DIGITEX-XMD Banner" width="400" />
   
   <hr style="width: 80%; margin: 20px auto; border: 0.5px solid #333;" />
 </div>
@@ -31,7 +31,7 @@
   <tr>
     <td align="center" width="50%">
       <h3>Official Website</h3>
-      <p>Visit Keith's official site</p>
+      <p>Visit Digitex's official site</p>
       <a href="https://keith-site.vercel.app">
         <img src="https://img.shields.io/badge/Website-ff69b4?style=for-the-badge" alt="Official Website">
       </a>
@@ -46,7 +46,7 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <h3>KEITH APIs</h3>
+      <h3>DIGITEX APIs</h3>
       <p>APIs and integrations (updating)</p>
       <a href="https://apis-digitex.vercel.app/">
         <img src="https://img.shields.io/badge/APIs-blue?style=for-the-badge" alt="DIGITEX APIs">
