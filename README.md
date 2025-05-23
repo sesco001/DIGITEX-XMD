@@ -23,7 +23,7 @@
     <td align="center" width="50%">
       <h3>Pair Session</h3>
       <p>Link your session ID to start using</p>
-      <a href="https://digitex-xmd-session-site.onrender.com/">
+      <a href="https://digitex-xmd-session-site-working.onrender.com">
         <img src="https://img.shields.io/badge/Pair_Session-white?style=for-the-badge" alt="Pair Session">
       </a>
     </td>
@@ -55,7 +55,8 @@
     <td align="center" width="50%">
       <h3>Deploy</h3>
       <p>Deploy to your preferred platform</p>
-      <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDigitexmedia%2FDIGITEX-XMD%2Ftree%2Fmain%3Ftab" alt="Deploy to Heroku">
+      <a href='https://dashboard.heroku.com/new?template=https://github.com/Digitexmedia/DIGITEX-XMD/tree/main?tab=readme-ov-file' target="_blank"> <img title="DEPLOY NEXUS-AI BOT" src="https://img.shields.io/badge/👻_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+      </a>">
       </a>
     </td>
   </tr>
